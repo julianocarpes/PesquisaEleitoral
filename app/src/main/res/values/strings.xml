@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pesquisa Eleitoral</string>
+    <string name="relatorio">Relatório da Urna</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="escolha">Escolha seu Candidato</string>
+    <string name="votos_computados">Votos Computados</string>
+</resources>

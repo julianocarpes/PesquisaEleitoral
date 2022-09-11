@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/escolha"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/lCandidatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/btladrao"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:src="@drawable/ladrao" />
+
+            <ImageView
+                android:id="@+id/btMito"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:src="@drawable/bolsonaro" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnRelatorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/verde"
+            android:text="@string/relatorio"
+            android:textColor="@color/black"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tsaidarelatorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/votos_computados"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+ 
